@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Chart2">
+    <Key>
+      <PropertyRef Name="Chart_Id" />
+    </Key>
+    <Property Name="Chart_Id" Type="Int32" Nullable="false" />
+    <Property Name="Growth_Year" Type="Int32" />
+    <Property Name="Growth_Value" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="ChartEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Chart2" EntityType="Self.Chart2" />
+  </EntityContainer>
+</Schema>

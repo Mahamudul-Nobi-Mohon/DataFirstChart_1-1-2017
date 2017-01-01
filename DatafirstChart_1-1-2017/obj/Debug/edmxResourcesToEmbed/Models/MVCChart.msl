@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChartModelStoreContainer" CdmEntityContainer="ChartEntities3">
+    <EntitySetMapping Name="Chart2">
+      <EntityTypeMapping TypeName="ChartModel.Chart2">
+        <MappingFragment StoreEntitySet="Chart2">
+          <ScalarProperty Name="Chart_Id" ColumnName="Chart_Id" />
+          <ScalarProperty Name="Growth_Year" ColumnName="Growth_Year" />
+          <ScalarProperty Name="Growth_Value" ColumnName="Growth_Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
